@@ -1,0 +1,36 @@
+Connecting to mail server.
+Connected.
+220 sjl0vm-hesra11.colo.sonicwall.com ESMTP snwlhosted.com
+EHLO es5861
+250-outbound5.snwlhosted.com
+250-8BITMIME
+250-ENHANCEDSTATUSCODES
+250-DSN
+250-STARTTLS
+250 SIZE 100000000
+RSET
+250 2.0.0 Ok
+MAIL FROM: <manju@hessim.eng.sonicwall.com>
+250 2.1.0 MAIL ok
+RCPT TO: <invalidemailaddressofgmail@gmail.com>
+250 2.1.5 <invalidemailaddressofgmail@gmail.com> ok
+RCPT TO: <snwltestqa@gmail.com>
+250 2.1.5 <snwltestqa@gmail.com> ok
+RCPT TO: <snwltest2@gmail.com>
+250 2.1.5 <snwltest2@gmail.com> ok
+RCPT TO: <uploadserver@outlook.com>
+250 2.1.5 <uploadserver@outlook.com> ok
+RCPT TO: <reachnikil@live.com>
+250 2.1.5 <reachnikil@live.com> ok
+RCPT TO: <sgaviyappa@sonicwall.com>
+250 2.1.5 <sgaviyappa@sonicwall.com> ok
+RCPT TO: <vmr_ganesh@rediffmail.com>
+250 2.1.5 <vmr_ganesh@rediffmail.com> ok
+DATA
+354 3.0.0 End Data with <CR><LF>.<CR><LF>
+.
+250 2.6.0 Message Accepted
+Forcing disconnection from SMTP server.
+QUIT
+221 2.0.0 outbound5.snwlhosted.com says goodbye; final session=201812060839040598330
+Disconnected.
